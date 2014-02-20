@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="jquery/jquery.mobile-1.4.1.min.css">
+<script src="jquery/jquery-1.10.1.min.js"></script>
+<script src="jquery/jquery.mobile-1.4.1.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page" id="main">
+    	<div data-role="header" data-position="fixed">
+        	<a href="#menu" data-role="button" data-iconpos="notext" data-icon="bullets">菜单</a>
+        	<h1>炉石传说</h1>
+        </div>
+        
+        <div data-role="content">
+        	<ul data-role="listview" data-inset="false" data-icon="false">
+                <li>
+                    <a href="#content">
+                    	<img src="images/2014021901111.jpg">
+                        <h2>玩家作品：《炉石传说》卡牌沙画</h2>
+                        <p>来自 玩家社区 的 MISSION 制作了数张《炉石传说》的卡牌沙画，其中包括霍格、关门放狗等等特色卡牌。MISSION用沙画的手法再次演绎了卡牌们的神韵，让我们一起来欣赏吧！</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    	<img src="images/c20140217j.jpg">
+                        <h2>炉石传说：牧师安杜因•乌瑞恩</h2>
+                        <p>年轻的暴风城王子安杜因•乌瑞恩头脑冷静、富于同情心，展现出与其父亲瓦里安国王完全不同的处世态度。和他的父亲不同，安杜因并不精于肉搏战斗技巧，而是遵从了圣光的指引。在最近潘达利亚大陆上发生的一系列纷争中，安杜因王子为化解争端起到了至关重要的作用。</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div data-role="page" id="content">
+    	<div data-role="header" data-position="fixed">
+        	<a href="#" data-role="button" data-iconpos="notext" data-icon="back" data-direction="reverse" data-rel="back">返回</a>
+            <h1></h1>
+            <a href="#main" data-role="button" data-iconpos="notext" data-icon="home" class="ui-btn-right">首页</a>
+        </div>
+        
+        <div data-role="content" style="margin:0; padding:3; text-align:center;">
+        	<h4 style="margin:0; padding:0;">玩家作品：《炉石传说》卡牌沙画</h4>
+            <p><img src="images/2014021901.jpg" /></p>
+        </div>
+    </div>
+    
+    <div data-role="page" id="menu">
+    	<div data-role="header" data-position="fixed">
+        	<a href="#" data-role="button" data-iconpos="notext" data-icon="back" data-direction="reverse" data-rel="back">返回</a>
+        	<h1>菜单</h1>
+            <a href="#main" data-role="button" data-iconpos="notext" data-icon="home" class="ui-btn-right">首页</a>
+        </div>
+    
+    	<div data-role="content">
+            <ul data-role="listview" data-inset="false">
+                <li><a href="#">游戏指南</a></li>
+                <li><a href="#">视频图片</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
